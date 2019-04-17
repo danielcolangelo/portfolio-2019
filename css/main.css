@@ -15,6 +15,7 @@ CSS FILE INDEX
 05- video And Testimonials Sections
 06- Blog Section
 07- Contact Us Section
+08- Other
 
 ==================================================== */
 
@@ -813,9 +814,17 @@ section.services {
 
 .project-info h3 {
     color: #6666FF;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+.project-info h3 a {
+    color: #6666FF;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .project-info h5 {
@@ -918,31 +927,7 @@ section.portfolio:after {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 05 VIDEO SECTION */
 
 
 
@@ -1077,38 +1062,7 @@ section.portfolio:after {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 06 BLOG */
 
 
 
@@ -1181,29 +1135,12 @@ section.portfolio:after {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 07 CONTACT */
 
 
 #map {
     height: 450px;
 }
-
-
-
 
 
 
@@ -1278,56 +1215,28 @@ footer p {
 }
 
 
+/* 08 OTHER */
+
+.modal-content {
+    background-color: #2c2d32;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.modal .close {
+    color: #fff;
+}
+
+.modal img {
+    max-width: 100%;
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* RESPONSIVE */
 
 @media (max-width:768px) {
     header {
