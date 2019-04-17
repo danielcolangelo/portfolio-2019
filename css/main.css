@@ -60,12 +60,19 @@ header {
 }
 
 .logo .center-circle {
+    content: url('.img/logo/logo-1x.png');
     height: 25px;
     width: 25px;
     background: #6666FF;
     border-radius: 50%;
     display: inline-block;
 }
+
+.logo-holder img {
+    max-width: 50px;
+    width: 100%;
+}
+
 .menu {
     margin-top: 40px;
     text-align: center;
@@ -1248,6 +1255,12 @@ footer p {
         margin: 0;
         display: inline-block;
     }
+
+    .logo-holder img {
+        max-width: 40px;
+        width: 100%;
+    }
+
     .center-circle {
         margin-top: 10px;
         margin-left: 10px;
@@ -1256,6 +1269,7 @@ footer p {
         right: 0;
         width: 60px;
         height: 60px;
+        display: none;
     }
     .menu:before, span.menu-item-name:before {
         content: none;
@@ -1266,8 +1280,9 @@ footer p {
     }
     .menu {
         margin: 0;
-        margin-top: 12px;
-        padding: 15px;
+        padding: 10px 15px;
+        background: unset;
+        float: right;
     }
 
     .content {
